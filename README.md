@@ -1,8 +1,8 @@
 Raluca Pop
 
-Site pentru evenimente(concerte, festivaluri, caritate, sport) realizat in Spring.
+Spring events (concerts, charity, sports etc).
+It will have a user(admin) who cand add, delete or modify the events.
+As a visitor you will choose which event you want to attend in a specific date and to book a ticket.
 
-Va fi un admin, care va adauga evenimente, tipul evenimentelor, le poate sterge.
-Ca si utilizator vei putea sa alegi toate evenimentele la care poti participa intr-o anuminta data si sa rezervi loc la evenimentul dorit.
 
 You can find the related resources at https://github.com/utcn-cs-software-design-tudorv-2019/LabInfo
