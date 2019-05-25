@@ -27,7 +27,7 @@ public class HomeController {
 		return "home";
 	}
 	
-	public String viewEvent(@PathVariable String productId, Model model ) throws IOException
+	public String viewEvent(@PathVariable String eventId, Model model ) throws IOException
 	{
 		Event event = eventDao.getEventById(eventId);
 		model.addAttribute(event);

@@ -49,5 +49,9 @@ public class EventDao {
 		}
 		throw new IOException("No event found!");
 	}
+	public List<Event> getAllEvents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
