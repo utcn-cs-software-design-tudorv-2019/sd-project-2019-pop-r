@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 
 import com.eventsweb.eventsweb.model.Event;
+import com.eventsweb.eventsweb.service.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
