@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface EventService {
 
-    List<Event> getProductList();
+    List<Event> getEventList();
     Event getEventById(int id);
     void addEvent(Event event);
     void editEvent(Event event);

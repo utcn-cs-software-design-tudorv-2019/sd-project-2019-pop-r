@@ -4,6 +4,7 @@ import com.eventsweb.eventsweb.model.BillingAddress;
 import com.eventsweb.eventsweb.model.Client;
 import com.eventsweb.eventsweb.model.ShippingAddress;
 import com.eventsweb.eventsweb.service.ClientService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -45,14 +46,14 @@ public class RegisterController {
             }
 
             if (client.getUsername().equals(clientList.get(i).getUsername())) {
-                model.addAttribute("usernameMsg", "email2");
+                model.addAttribute("usernameMsg", "errorusername");
                 return "registerClient";
             }
 
         }
 
-        customer.setEnabled(true);
-        customerService.addCustomer(customer);
-        return "registerCustomerSuccess";
+        client.setEnabled(true);
+        clientService.addClient(client);
+        return "registerClientSuccess";
     }
 }
